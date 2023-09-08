@@ -9,6 +9,7 @@ export const ItemContainer = styled.div`
     background : #E5E4E2;
     border-radius : 5px 5px 10px 10px;
     filter: drop-shadow(0 0 10px #E5E4E2);
+    animation: ItemAni 2s ease-in-out forwards;
 `;
 
 export const Rank = styled.div`

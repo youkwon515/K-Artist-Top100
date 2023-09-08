@@ -9,3 +9,14 @@
     text-decoration: none;
     transition: all 0.3s;
 }
+
+@keyframes ItemAni {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
