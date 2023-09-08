@@ -25,7 +25,7 @@ function Chart() {
     return (
         <S.ChartContainer>
             <Tooltip />
-            {artist ? artist.map((data) => <ChartItem rank={data.rank} artist={data.artist} rankChange={data.rank_change} duration={data.duration} views={data.views}/>) : ''}
+            {artist ? artist.map((data) => <ChartItem rank={data.rank} artist={data.artist} rank_change={data.rank_change} duration={data.duration} views={data.views}/>) : ''}
         </S.ChartContainer>
     );
 }
