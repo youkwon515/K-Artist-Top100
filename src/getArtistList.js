@@ -25,17 +25,17 @@ async function getArtistList() {
         const $ = cheerio.load(html);
 
         $(".chart-table-row").each((idx, element) => {
-            let rank_change = 'no';
+            let rank_change = '-';
 
             switch($(element).find("path.style-scope").attr('d')) {
                 case 'M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z':
-                    rank_change = 'no';
+                    rank_change = '-';
                     break;
                 case 'M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z':
-                    rank_change = 'up';
+                    rank_change = 'UP';
                     break;
                 case 'M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z':
-                    rank_change = 'down';
+                    rank_change = 'DOWN';
                     break;
             }
 
