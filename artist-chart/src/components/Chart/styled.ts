@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const ChartContainer = styled.div`
     width : 100%;
-    height : 100vh;
-    padding : 120px 30px 0 30px;
+    height : calc(100vh - 70px);
+    padding-top : 30px;
     overflow: auto;
     background : #1E1E1E;
 

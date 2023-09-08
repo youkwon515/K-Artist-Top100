@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
     width : 100%;
     height : 70px;
-    position : fixed;
     background : #333;
-    z-index : 999;
 `;
 
 export const Logo = styled.h1`
