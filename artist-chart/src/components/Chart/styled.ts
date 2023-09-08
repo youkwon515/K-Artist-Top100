@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const ChartContainer = styled.div`
     width : 100%;
     height : calc(100vh - 70px);
-    padding-top : 30px;
+    padding-top : 35px;
     overflow: auto;
+    overflow-x: hidden;
     background : #1E1E1E;
+    position: relative;
 
     &::-webkit-scrollbar {
         width : 8px;
