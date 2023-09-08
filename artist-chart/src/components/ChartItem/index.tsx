@@ -1,13 +1,13 @@
 import * as S from './styled';
 
-import Item from '../../types/ChartItem';
+import Artist from '../../types/ArtistList';
 
-function ChartItem({rank, artist, rankChange, duration, views}: Item) {
+function ChartItem({rank, artist, rank_change, duration, views}: Artist) {
     return (
         <S.ItemContainer>
             <S.Rank>{rank}</S.Rank>
             <S.Artist>{artist}</S.Artist>
-            <S.RankChange>{rankChange}</S.RankChange>
+            <S.RankChange>{rank_change}</S.RankChange>
             <S.Duration>{duration}</S.Duration>
             <S.Views>{views}</S.Views>
         </S.ItemContainer>
