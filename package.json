@@ -1,7 +1,7 @@
 {
   "name": "k-artist-100",
   "version": "1.0.0",
-  "description": "",
+  "description": "한국의 인기 아티스트 Top100",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,14 @@
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2",
     "puppeteer": "^21.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youkwon515/K-Artist-Top100.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youkwon515/K-Artist-Top100/issues"
+  },
+  "homepage": "https://github.com/youkwon515/K-Artist-Top100#readme"
 }
