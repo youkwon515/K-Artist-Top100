@@ -3,8 +3,8 @@ import { Header, Chart } from "./components";
 function App() {
     return (
         <>
-            <Header />
-            <Chart />
+        <Header />
+        <Chart />
         </>
     );
 }

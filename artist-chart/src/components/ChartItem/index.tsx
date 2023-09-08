@@ -1,5 +1,4 @@
 import * as S from './styled';
-
 import Artist from '../../types/ArtistList';
 
 function ChartItem({rank, artist, rank_change, duration, views}: Artist) {

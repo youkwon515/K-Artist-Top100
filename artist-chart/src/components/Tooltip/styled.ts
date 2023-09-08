@@ -3,14 +3,13 @@ import styled from "styled-components";
 export const TooltipTable = styled.table`
     display : flex;
     width : 1000px;
-    height : 30px;
+    height : 53px;
     margin : 0 auto;
     margin-bottom : 30px;
     color : #E5E4E2;
     filter: drop-shadow(0 0 10px #E5E4E2);
     border-bottom : 0.5px solid #E5E4E2;
 `;
-
 
 export const RankTr = styled.tr`
     display : flex;
