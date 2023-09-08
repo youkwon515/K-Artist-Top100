@@ -43,9 +43,11 @@ async function getArtistList() {
                 rank: idx + 1,
                 rank_change,
                 artist: $(element).find(".ytmc-ellipsis-text-container span.ytmc-ellipsis-text").text().replace(/\s/g, ""),
+                duration: $(element).find(".chart-period-cell .chart-period span.ytmc-chart-table").text().replace(/\s/g, ""),
+                views: $(element).find(".views-cell .views span.ytmc-chart-table").text().replace(/\s/g, ""),
             });
         });
-        
+
         return artistList;
     } catch(error) {
         console.error(error);
