@@ -11,6 +11,7 @@ async function getHtml() {
         await browser.close();
         return html;
     } catch(error) {
+        console.log('getHtml error');
         console.error(error);
         return null;
     }
@@ -50,6 +51,7 @@ async function getArtistList() {
 
         return artistList;
     } catch(error) {
+        console.log('getArtistList error');
         console.error(error);
     }
 }
